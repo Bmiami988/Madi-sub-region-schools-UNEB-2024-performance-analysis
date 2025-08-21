@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from main import df, moyo_df, adjumani_df
+from app import df, moyo_df, adjumani_df
 
 st.title("📈 DETAILED GRADE DISTRIBUTION ANALYSIS")
 
@@ -113,4 +113,5 @@ st.info("""
 2. **Excellence Gap**: Moyo has over twice the percentage of top grades (A & B)
 3. **Absenteeism Problem**: Adjumani has higher absenteeism in both raw numbers and rates
 4. **Competency Crisis**: The high percentage of E grades in Adjumani indicates a basic competency crisis
+
 """)
