@@ -1,5 +1,5 @@
 import streamlit as st
-from main import df, moyo_df, adjumani_df
+from app import df, moyo_df, adjumani_df
 
 st.title("💡 COMPREHENSIVE INSIGHTS")
 
@@ -132,4 +132,5 @@ related to teaching quality, student attendance, and academic support.
 The recommendations provided offer a structured approach to addressing these challenges, 
 with immediate actions focused on the most struggling schools and longer-term strategies 
 aimed at creating sustainable improvement across the entire educational ecosystem of the Madi sub-region.
+
 """)
