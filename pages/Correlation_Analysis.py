@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from main import df
+from app import df
 
 st.title("🔗 Correlation Analysis")
 
@@ -132,4 +132,5 @@ st.info("""
 3. **Size Doesn't Determine Success**: School size shows little correlation with performance
 4. **Interconnected Factors**: Multiple factors contribute to school performance, not just one single variable
 5. **Inverse Relationship**: Pass rate and failure rate have a perfect negative correlation as expected
+
 """)
