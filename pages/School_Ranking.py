@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from main import df
+from app import df
 
 st.title("🏫 SCHOOL PERFORMANCE RANKING AND COMPARISION")
 
@@ -104,4 +104,5 @@ st.warning("""
 2. **Peer Learning**: Establish partnerships between top-performing and struggling schools
 3. **Resource Allocation**: Direct additional resources to schools in Adjumani, particularly those in lower performance tiers
 4. **Performance Monitoring**: Implement regular tracking of school performance categories to measure improvement
+
 """)
