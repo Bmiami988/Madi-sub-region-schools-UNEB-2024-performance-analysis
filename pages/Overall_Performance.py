@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from main import df, moyo_df, adjumani_df
+from app import df, moyo_df, adjumani_df
 
 st.title("🏠 OVERALL PERFORMANCE COMPARISION BY DISTRICT")
 
@@ -96,4 +96,5 @@ st.info("""
 2. **School Distribution**: Schools are evenly distributed, ruling out quantity as a factor
 3. **Student Population**: Adjumani serves more students with similar school count
 4. **School Size**: Adjumani schools are larger on average, potentially straining resources
+
 """)
