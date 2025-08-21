@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from main import df, moyo_df, adjumani_df
+from app import df, moyo_df, adjumani_df
 
 st.title("📊 PERFORMANCE DISTRIBUTION ANALYSIS")
 
@@ -107,4 +107,5 @@ st.info("""
 2. **Failure Patterns**: Adjumani has concerning clusters of schools with high failure rates
 3. **Size Not Deterministic**: School size doesn't correlate strongly with performance
 4. **Excellence Models**: Top-performing schools are predominantly in Moyo and should be studied for best practices
+
 """)
