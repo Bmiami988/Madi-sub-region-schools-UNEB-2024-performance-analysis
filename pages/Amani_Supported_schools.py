@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from main import df
+from app import df
 
 st.title("🏫 ATF SUPPORTED SCHOOLS PERFORMANCE ANALYSIS")
 st.subheader("Comparative Analysis: MOYO SECONDARY SCHOOL vs BEZZA AL-HIJJI SECONDARY SCHOOL")
@@ -279,4 +279,5 @@ with tab5:
 # Footer with Amani Foundation info
 st.markdown("---")
 st.markdown("**Amani Transformational Foundation** - Transforming Education in the Madi Sub-Region")
+
 st.markdown("*Supporting schools to achieve academic excellence and holistic student development*")
